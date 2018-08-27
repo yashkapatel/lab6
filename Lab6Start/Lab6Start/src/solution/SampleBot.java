@@ -23,7 +23,7 @@ public class SampleBot
    */
   public SampleBot(BattleShip b)
   {
-    battleShip = b;
+    battleShip = ba;
     gameSize = b.BOARDSIZE;
     random = new Random();   // Needed for random shooter - not required for more systematic approaches
   }
